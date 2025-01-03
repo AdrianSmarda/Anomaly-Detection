@@ -1,56 +1,27 @@
-# Anomaly Detection
-Anomaly Detection in Healthcare: Detecting Patient Health Deterioration
+# Anomaly Detection Program
 
+This project demonstrates the use of machine learning techniques for **anomaly detection** in physiological data. The goal is to identify anomalies that may indicate potential health issues. The project utilizes **Isolation Forest** for unsupervised anomaly detection and **Random Forest** for supervised classification. 
 
-Scenario
+---
 
+## Purpose
 
+The main objective of this program is to analyze physiological data, such as heart rate, body temperature, and blood oxygen saturation (SpO2), to detect anomalies and classify health statuses as "Infected" or "Non-Infected." The program provides insights into using machine learning models for anomaly detection in health monitoring.
 
-Wearable devices like smartwatches, fitness trackers, and medical-grade monitoring devices are increasingly used to track vital signs such as:
+## Features
 
-	•	Heart rate
+- Supports preprocessing of physiological data with standardization and outlier filtering.
+- Implements **Isolation Forest** for detecting anomalies in an unsupervised manner.
+- Includes **Random Forest Classifier** for supervised classification of health statuses.
+- Provides both 2D and 3D visualizations of model predictions and classification results.
 
-	•	Blood oxygen levels (SpO2)
+---
 
-	•	Body temperature
+## Installation
 
-	•	Respiration rate
+The project requires **Python >= 3.6**.
 
-	•	Sleep patterns
-
-	•	Physical activity
-
-
-
-Anomaly detection can analyze this continuous stream of data to identify early signs of potential health issues, such as:
-
-	•	Cardiac arrhythmia or irregular heartbeats.
-
-	•	Respiratory distress (e.g., from asthma or COPD exacerbation).
-
-	•	Sudden drops in oxygen levels, indicating hypoxia or sleep apnea.
-
-	•	Sudden inactivity or a fall, indicating accidents.
-
-
-
-Why It’s Important
-
-	1.	Preventive Care: Early detection of anomalies can allow healthcare providers to intervene before the condition worsens.
-
-	2.	Remote Monitoring: Patients can be monitored at home, reducing hospital visits and healthcare costs.
-
-	3.	Personalized Medicine: Devices can create a baseline for each patient’s “normal” health metrics, improving anomaly detection accuracy.
-
-
-
-How It Works
-
-	1.	Baseline Creation: Collect data over time to establish what is “normal” for the individual.
-
-	2.	Real-Time Monitoring: Continuously analyze incoming data from wearables.
-
-	3.	Anomaly Detection: Use machine learning algorithms to flag deviations from the baseline.
-
-	4.	Alerts: Notify the patient or healthcare provider if a critical anomaly is detected.
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/anomaly-detection.git
+   cd anomaly-detection
