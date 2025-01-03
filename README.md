@@ -19,7 +19,7 @@ The main objective of this program is to analyze physiological data, such as hea
 
 ## Installation
 
-The project requires **Python >= 3.6**.
+The project requires ... //dodat
 
 1. Clone the repository:
    ```bash
