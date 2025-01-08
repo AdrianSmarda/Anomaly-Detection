@@ -6,7 +6,7 @@ This project demonstrates the use of machine learning techniques for **anomaly d
 
 ## Purpose
 
-The main objective of this program is to analyze physiological data, such as heart rate, body temperature, and blood oxygen saturation (SpO2), to detect anomalies and classify health statuses as "Infected" or "Non-Infected." The program provides insights into using machine learning models for anomaly detection in health monitoring.
+The main objective of this program is to analyze physiological data, such as heart rate, body temperature, and blood oxygen saturation (SpO2), to detect anomalies and classify health statuses as "Covid Positive," "Covid Negative," "Covid False Positive," or "Covid False Negative."
 
 ## Features
 
@@ -19,9 +19,17 @@ The main objective of this program is to analyze physiological data, such as hea
 
 ## Installation
 
-The project requires ... //dodat
-
 1. Clone the repository:
    ```bash
    git clone https://github.com/AdrianSmarda/anomaly-detection.git
    cd anomaly-detection
+
+2. Installing dependencies:
+   ```bash
+   pip install -r requirements.txt
+   pip install jupyterlab
+
+3. Running program:
+   ```bash
+   jupyter lab
+   
