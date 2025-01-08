@@ -26,7 +26,6 @@ The main objective of this program is to analyze physiological data, such as hea
 
 2. Installing dependencies:
    ```bash
-   pip install -r requirements.txt
    pip install jupyterlab
 
 3. Running program:
